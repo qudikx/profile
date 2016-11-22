@@ -1,0 +1,61 @@
+
+<html><head>
+<link href='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZkMRlssukMvD0XBI0Yq4NBk3kr3UEth7XgDbFEu61XlWZ99iL' rel='SHORTCUT ICON'/>
+<title>Touch By K0D1K</title>
+<script language="javascript">
+<!--
+var tl = new Array(
+"   ",
+"   Mungkin kau tak pernah tahu apa yang kutulis disini",
+"   Yang terkadang tak tereja di setiap syairnya",
+"   Yang takkan pernah selesai kurangkai untukmu",
+"   Dan tak tak pernah lelah kugoreskan di tiap aksaranya",
+"   Hingga kata yang kupintal menjadikan namamu",
+"   ",
+"   Izinkan aku mencintaimu meski dalam goresan pena",
+"   Aku ingin mencintaimu layaknya mentari",
+"   Yang bergulir sempurna dari kanan ke kiri",
+"   Aku ingin mencintaimu seperti udara",
+"   Yang tak terlihat namun dapat kau rasa",
+"   ",
+"   Mungkin bagimu rinduku tak kasat mata",
+"   Rindu yang tak terbaca yang tak kau pahami maknanya",
+"   Biarkanlah aku simpan dan kurajut dalam hati",
+"   Tentangmu...",
+"   Pada sedikit kisah hidupmu yang pernah kau bagi cerita",
+"   Pada sekeping hatimu yang rela kutumbuhi bunga",
+"   Tentangmu...",
+"   Namamu yang selalu menggetarkan sekeping hatiku...");
+
+
+var speed = 50;
+var index = 0; text_pos = 0;
+var str_length = tl[0].length;
+var contents, row;
+
+function type_text()
+{
+    contents = '';
+    row = Math.max(0, index-25);
+    while (row<index) contents += tl[row++] + '\r\n';
+    document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "|";
+    if (text_pos ++== str_length)
+    {
+        text_pos = 0;
+        index++;
+        if (index != tl.length)
+        {
+            str_length = tl[index].length;
+            setTimeout("type_text()", 300);
+        }  
+    } else
+    setTimeout("type_text()", speed);
+}
+//--></script>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" bgcolor="#000" onload="type_text()" style="background: black url(https://s-media-cache-ak0.pinimg.com/originals/fe/83/c0/fe83c07d262752c7a28be5ec12d9f186.jpg) no-repeat center center fixed;  -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td width="1%">&nbsp;</td><td width="98%"><div style="margin-top:55px;"><font color="#FF0000"><center><h1><big>=[ Touch By K0D1K ]=</big></h1></center></font></div><p align="center">&nbsp;</p><form><font face="trebuchet ms, verdana, arial, helvetica, sans-serif" size="2" color="green"><div align="center"><textarea rows="20" cols="91" wrap="soft" style="width:854;height:350;background: rgba(255, 255, 255, 0.04);color:#00FF00;border:0;border-radius:4px;box-shadow: 0 1px 11px rgba(0, 0, 0, 0.7);outline:none!important;margin-top:-40px;"></textarea>
+<hr width="854"></hr><font color="#FF0000"><h2><b>Sorry Admin, Your Security is Low!</h2></font><hr width="854"></hr></div></font></form></td></tr></tbody></table></body>
+<iframe width="0%" height="0%"
+src="https://www.youtube.com/embed/KNmnbOmWpgA?autoplay=1" frameborder="0">
+</iframe>
+</html>
